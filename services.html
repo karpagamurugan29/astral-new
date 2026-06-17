@@ -121,16 +121,86 @@
                             <div class="collapse navbar-collapse show" id="navbarSupportedContent">
                                 <ul class="navigation">
                                     <li><a href="index.html">Home</a></li>
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href="services.html">Services</a></li>
-                                    <li><a href="blog.html">Blog</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="about.html">About Firm</a></li>
+                                    <li><a href="services.html">Audit & Advisory</a></li>
+                                    <li><a href="blog.html">Insights</a></li>
+                                    <li><a href="contact.html">Schedule Consultation</a></li>
                                 </ul>
                             </div>
                         </nav>
                     </div>
                     <div class="header_right_content">
-                        <div class="link-btn"><a href="#" class="btn_style_one">Get Started</a></div>
+                        <div class="link-btn">
+                            <a href="#" class="btn_style_one" data-bs-toggle="modal" data-bs-target="#partnerModal">
+                                <span>Speak To Partner</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade premium-modal" id="partnerModal" tabindex="-1" aria-hidden="true">
+
+                            <div class="modal-dialog modal-dialog-centered">
+
+                                <div class="modal-content">
+
+                                    <div class="modal-header border-0">
+
+                                        <div>
+                                            <span class="modal-badge">
+                                                <i class="fas fa-sparkles"></i>
+                                                Support
+                                            </span>
+
+                                            <h3 class="modal-title">
+                                                Speak To Partner
+                                            </h3>
+
+                                            <p class="modal-desc">
+                                                Let's discuss your requirements and find the best solution.
+                                            </p>
+                                        </div>
+
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+
+                                    </div>
+
+                                    <div class="modal-body">
+
+                                        <form>
+
+                                            <div class="input-group-premium">
+                                                <i class="fas fa-user"></i>
+                                                <input type="text" placeholder="Full Name">
+                                            </div>
+
+                                            <div class="input-group-premium">
+                                                <i class="fas fa-envelope"></i>
+                                                <input type="email" placeholder="Email Address">
+                                            </div>
+
+                                            <div class="input-group-premium">
+                                                <i class="fas fa-phone"></i>
+                                                <input type="tel" placeholder="Phone Number">
+                                            </div>
+
+                                            <div class="input-group-premium textarea-group">
+                                                <i class="fas fa-message"></i>
+                                                <textarea placeholder="Tell us about your project"></textarea>
+                                            </div>
+
+                                            <button class="premium-submit">
+                                                <span>Send Request</span>
+                                                <i class="fas fa-paper-plane"></i>
+                                            </button>
+
+                                        </form>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -152,8 +222,8 @@
                         </nav>
                     </div>
                     <div class="header_right_content">
-                        <button class="search-toggler"><i class="icon-50"></i></button>
-                        <div class="link-btn"><a href="#" class="btn_style_one">Get Started</a></div>
+                        <button class="search-toggler d-none"><i class="icon-50"></i></button>
+                        <div class="link-btn"><a href="#" class="btn_style_one">Speak To Partner</a></div>
                     </div>
                 </div>
             </div>
@@ -375,7 +445,7 @@
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                         <div class="footer_widget about_widget aos-init aos-animate" data-aos="fade-right"
                             data-aos-easing="linear" data-aos-duration="500">
-                            <figure class="footer_logo">
+                           <figure class="footer_logo">
                                 <a href="index.html"><img src="assets/images/logo.png" alt=""></a>
                             </figure>
                             <p>Astral Consulting Limited is an ISO 9001 Certified firm providing Internal Audit,

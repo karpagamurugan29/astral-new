@@ -1,13 +1,14 @@
 /*** ================== Main Footer =================== ***/
+
 .main_footer {
     position: relative;
     overflow: hidden;
     z-index: 99;
-    background: linear-gradient(to right, #3b3b3b, #760000);
+    background: linear-gradient(to right, #dedede, #e4e4e4);
 }
 
 .footer_top {
-    padding: 100px 0px;
+    padding: 50px 0px;
 }
 
 .about_widget {
@@ -20,17 +21,18 @@
 
 .footer_widget p {
     line-height: 26px;
-    color: rgba(255, 255, 255, 1);
+    color: #444242db;
     margin-bottom: 33px;
 }
 
 h4.footer_widget_title {
-    color: #FFF;
-    margin-bottom: 20px;
+    color: #7b1a13;
+    margin-bottom: 10px;
+    font-size: 17px;
 }
 
 .footer_widget ul li a {
-    color: #ffffffdb;
+    color:#444242db;
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
@@ -56,12 +58,12 @@ h4.footer_widget_title {
 
 .subscribe-inner .form-group input {
     width: auto;
-    color: #fff;
+    color: #444242db;
     height: 50px;
     line-height: 50px;
     border-radius: 50px;
-    border: 1px solid rgba(255, 255, 255, 0.20);
-    background: rgba(255, 255, 255, 0.10);
+    border: 1px solid rgb(52 52 52 / 20%);
+    background: rgb(190 190 190 / 10%);
     backdrop-filter: blur(5px);
 }
 
@@ -71,14 +73,12 @@ h4.footer_widget_title {
 
 .footer_bottom {
     position: relative;
-    background: rgba(0, 0, 0, 0.50);
-    backdrop-filter: blur(5px);
+    background: rgb(46 46 46);
 }
-
 
 .footer_bottom .copyright {
     display: flex;
-    padding: 15px 10px;
+    padding: 8px 10px;
     align-items: center;
     justify-content: center;
     font-size: 13px;
@@ -90,8 +90,10 @@ h4.footer_widget_title {
 }
 
 .footer_bottom .copyright a {
-    color: #E770C1;
+    color: #ff9e9d;
+    margin-right: 5px;
 }
+
 
 .footer_shape {
     position: absolute;

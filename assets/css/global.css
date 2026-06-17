@@ -207,10 +207,9 @@ img {
 
 /** End Defult Form **/
 
-/** Button Style One **/
 .btn_style_one {
     position: relative;
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 600;
     line-height: 30px;
@@ -219,7 +218,7 @@ img {
     border-radius: 60px;
     color: var(--bs-white);
     overflow: hidden;
-    padding: 10px 25px 10px 25px;
+    padding: 5px 15px 5px 15px;
     font-family: var(--primary-font);
     background: linear-gradient(to right, #ff0000ba, #ff00007a);
     transition: all 900ms ease;
@@ -450,10 +449,12 @@ img {
     background: #ffffff;
     z-index: 999999999;
 }
+
 .handle-preloader .animation-preloader .spinner img {
     border-radius: 50%;
     padding: 12px;
 }
+
 .handle-preloader .animation-preloader .txt-loading {
     text-align: center;
     user-select: none;
@@ -535,9 +536,10 @@ img {
 
 /* AnimaciÃƒÂ³n del preloader */
 @keyframes spinner {
-     from {
+    from {
         transform: rotate(0deg);
     }
+
     to {
         transform: rotate(360deg);
     }

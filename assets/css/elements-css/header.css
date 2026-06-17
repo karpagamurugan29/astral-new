@@ -97,8 +97,7 @@
   box-shadow: none !important;
 }
 
-/* Main Header */
-.main_header_inner{
+.main_header_inner {
     position: relative;
     display: flex;
     padding: 30px 0px;
