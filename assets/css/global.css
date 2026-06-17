@@ -609,7 +609,7 @@ img {
 .social-links li a i {
     font-size: 24px;
     line-height: 43px;
-    color: rgba(255, 255, 255, 0.5);
+    color: #fff;
     transition: all 900ms ease;
     -moz-transition: all 900ms ease;
     -webkit-transition: all 900ms ease;
