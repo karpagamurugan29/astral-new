@@ -6683,3 +6683,10 @@ a.btn_style_link {
     color: #000000;
     font-weight: 600;
 }
+.internal_teams .image_box img {
+    width: 100%;
+    min-height: 300px;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: top;
+}
