@@ -1099,6 +1099,7 @@
 .feature_content_block .accordion .acc-btn {
     padding: 20px 0px;
 }
+
 .feature_content_block .accordion .acc-btn h4 {
     font-size: 19px;
     font-weight: 700;
@@ -6591,6 +6592,7 @@ span.designation {
 .hader-social-media {
     padding: 10px 0;
 }
+
 /* Horizontal list layout */
 .social-links {
     display: flex;
@@ -6634,14 +6636,12 @@ span.designation {
 
 /* Instagram */
 .social-links li:nth-child(2) a {
-    background: linear-gradient(
-        45deg,
-        #f09433 0%,
-        #e6683c 25%,
-        #dc2743 50%,
-        #cc2366 75%,
-        #bc1888 100%
-    );
+    background: linear-gradient(45deg,
+            #f09433 0%,
+            #e6683c 25%,
+            #dc2743 50%,
+            #cc2366 75%,
+            #bc1888 100%);
     box-shadow: 0 8px 20px rgba(220, 39, 67, 0.35);
 }
 
@@ -6661,6 +6661,7 @@ span.designation {
 .footer_widget ul li a span {
     color: #fff !important;
 }
+
 .social-links li a {
     display: flex !important;
 }
@@ -6668,6 +6669,7 @@ span.designation {
 .footer_widget ul li a span {
     color: #fff;
 }
+
 .author_image img {
     width: 70px;
     height: 70px;
@@ -6675,6 +6677,7 @@ span.designation {
     border: 2px solid #fff;
     object-fit: cover;
 }
+
 a.btn_style_link {
     font-size: 15px;
     display: flex;
@@ -6683,10 +6686,300 @@ a.btn_style_link {
     color: #000000;
     font-weight: 600;
 }
+
 .internal_teams .image_box img {
     width: 100%;
     min-height: 300px;
     max-height: 300px;
     object-fit: cover;
     object-position: top;
+}
+
+.apf-roadmap-section {
+    font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+    background-color: #ffffff;
+    padding: 120px 24px;
+    color: #0f172a;
+    -webkit-font-smoothing: antialiased;
+    padding-top: 0;
+}
+
+.apf-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Luxury Brand Header */
+.apf-header {
+    max-width: 680px;
+    margin-bottom: 100px;
+}
+
+.apf-badge-wrapper {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    padding: 6px 14px;
+    border-radius: 100px;
+}
+
+.apf-badge-dot {
+    width: 6px;
+    height: 6px;
+    background-color: #1e3a8a;
+    border-radius: 50%;
+}
+
+.apf-badge-text {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #475569;
+}
+
+.apf-title {
+    font-size: 3.25rem;
+    font-weight: 800;
+    letter-spacing: -0.04em;
+    line-height: 1.15;
+    margin: 24px 0 16px 0;
+    color: #0f172a;
+}
+
+.apf-lead {
+    font-size: 1.15rem;
+    line-height: 1.6;
+    color: #475569;
+}
+
+/* Reimagined Timeline Grid System */
+.apf-timeline-grid {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+/* Subtle, thin tracking metric baseline */
+.apf-timeline-spine {
+    position: absolute;
+    left: 180px;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background-color: #e2e8f0;
+    z-index: 1;
+}
+
+/* Layout Rows */
+.apf-epoch-block {
+    position: relative;
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    align-items: start;
+    padding: 48px 0;
+    border-bottom: 1px solid #f1f5f9;
+    z-index: 2;
+    transition: background-color 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Smooth Interactive Row Background Reveal */
+.apf-epoch-block:hover {
+    background-color: #f8fafc;
+}
+
+/* Timeline Meta Columns (Left Side Alignment) */
+.apf-epoch-meta {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 40px;
+}
+
+.apf-epoch-year {
+    font-size: 1.75rem;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    color: #94a3b8;
+    transition: color 0.4s cubic-bezier(0.16, 1, 0.3, 1), transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Perfectly calculated intercept points */
+.apf-epoch-indicator {
+    position: absolute;
+    right: -5px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 2px solid #cbd5e1;
+    z-index: 3;
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.apf-epoch-tag {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #94a3b8;
+    margin-bottom: 0px;
+    transition: color 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.apf-epoch-tag {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #94a3b8;
+    margin-bottom: 12px;
+    transition: color 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.apf-epoch-text {
+    font-size: 15px;
+    line-height: 1.65;
+    color: #64748b;
+    margin: 0;
+}
+
+.apf-epoch-text {
+    font-size: 1.05rem;
+    line-height: 1.65;
+    color: #64748b;
+    margin: 0;
+}
+
+/* Brand Identity Configurations & Hover States */
+
+/* Burgundy System */
+.apf-accent-burgundy:hover .apf-epoch-year {
+    color: #991b1b;
+    transform: translateX(4px);
+}
+
+.apf-accent-burgundy:hover .apf-epoch-indicator {
+    border-color: #991b1b;
+    background-color: #991b1b;
+    transform: scale(1.3);
+}
+
+.apf-accent-burgundy:hover .apf-epoch-title {
+    color: #991b1b;
+}
+
+.apf-accent-burgundy:hover .apf-epoch-tag {
+    color: #f87171;
+}
+
+/* Navy System */
+.apf-accent-navy:hover .apf-epoch-year {
+    color: #1e3a8a;
+    transform: translateX(4px);
+}
+
+.apf-accent-navy:hover .apf-epoch-indicator {
+    border-color: #1e3a8a;
+    background-color: #1e3a8a;
+    transform: scale(1.3);
+}
+
+.apf-accent-navy:hover .apf-epoch-title {
+    color: #1e3a8a;
+}
+
+.apf-accent-navy:hover .apf-epoch-tag {
+    color: #60a5fa;
+}
+
+/* Global smooth body push on hover */
+.apf-epoch-block:hover .apf-epoch-body {
+    transform: translateX(8px);
+}
+
+/* Present Active / Ongoing State System */
+.apf-state-current .apf-epoch-year {
+    color: #1e3a8a;
+    font-weight: 800;
+}
+
+.apf-state-current .apf-epoch-indicator {
+    border-color: #1e3a8a;
+    background-color: #1e3a8a;
+    animation: apfActivePulse 2s infinite ease-in-out;
+}
+
+.apf-tag-active {
+    color: #1e3a8a !important;
+    font-weight: 800;
+}
+
+@keyframes apfActivePulse {
+
+    0%,
+    100% {
+        box-shadow: 0 0 0 0 rgba(30, 58, 138, 0.3);
+    }
+
+    50% {
+        box-shadow: 0 0 0 6px rgba(30, 58, 138, 0.15);
+    }
+}
+
+/* Premium Responsive Fluid Breaks */
+@media (max-width: 768px) {
+    .apf-header {
+        margin-bottom: 60px;
+    }
+
+    .apf-title {
+        font-size: 2.25rem;
+    }
+
+    .apf-timeline-spine {
+        left: 12px;
+    }
+
+    .apf-epoch-block {
+        grid-template-columns: 1fr;
+        gap: 16px;
+        padding: 32px 0;
+    }
+
+    .apf-epoch-meta {
+        justify-content: flex-start;
+        padding-left: 32px;
+    }
+
+    .apf-epoch-indicator {
+        left: 8px;
+        right: auto;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .apf-accent-burgundy:hover .apf-epoch-indicator,
+    .apf-accent-navy:hover .apf-epoch-indicator {
+        transform: translateY(-50%) scale(1.3) !important;
+    }
+
+    .apf-epoch-body {
+        padding-left: 32px;
+    }
+
+    .apf-epoch-block:hover .apf-epoch-body {
+        transform: translateX(4px);
+    }
+
+    .apf-accent-burgundy:hover .apf-epoch-year,
+    .apf-accent-navy:hover .apf-epoch-year {
+        transform: translateX(0);
+    }
 }
