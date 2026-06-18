@@ -213,10 +213,11 @@
 }
 
 @media only screen and (max-width: 991px) {
-    
+
     img.main_banner_img_ {
         display: none;
     }
+
     .home__ser_sec {
         display: grid;
     }
@@ -478,17 +479,30 @@
 
 @media only screen and (max-width: 767px) {
     .banner_style_three {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-.banner_style_three .banner_left_image .income_chart {
-    width: 90%;
-    margin-top: 2rem;
-}
-.banner_awr_sec {
-    display: grid;
-    margin-top: 0rem;
-}
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .handle-preloader .animation-preloader .spinner {
+        height: 3em;
+        width: 3em;
+        margin: 0 auto;
+    }
+
+    .banner_style_three .banner_left_image .income_chart {
+        max-width: 90%;
+        margin-top: 2rem;
+    }
+
+    .apf-timeline-grid {
+        width: 100%;
+    }
+
+    .banner_awr_sec {
+        display: grid;
+        margin-top: 0rem;
+    }
+
     .home__ser_sec {
         display: grid;
     }

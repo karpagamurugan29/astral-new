@@ -6968,8 +6968,8 @@ a.btn_style_link {
         transform: translateY(-50%) scale(1.3) !important;
     }
 
-    .apf-epoch-body {
-        padding-left: 32px;
+     .apf-epoch-body {
+        margin-left: 25px;
     }
 
     .apf-epoch-block:hover .apf-epoch-body {
