@@ -6755,12 +6755,13 @@ a.btn_style_link {
     color: #475569;
 }
 
-/* Reimagined Timeline Grid System */
 .apf-timeline-grid {
     position: relative;
     display: flex;
     flex-direction: column;
     gap: 0;
+    width: 70%;
+    margin: auto;
 }
 
 /* Subtle, thin tracking metric baseline */
@@ -6821,15 +6822,10 @@ a.btn_style_link {
     transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.apf-epoch-tag {
-    display: inline-block;
-    font-size: 0.75rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    color: #94a3b8;
-    margin-bottom: 0px;
-    transition: color 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+/* Content Columns (Right Side Alignment) */
+.apf-epoch-body {
+    padding-left: 60px;
+    transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .apf-epoch-tag {
@@ -6843,11 +6839,13 @@ a.btn_style_link {
     transition: color 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.apf-epoch-text {
-    font-size: 15px;
-    line-height: 1.65;
-    color: #64748b;
-    margin: 0;
+.apf-epoch-title {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin: 0 0 0px 0;
+    color: #1e293b;
+    transition: color 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .apf-epoch-text {
