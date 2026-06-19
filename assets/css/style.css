@@ -7206,6 +7206,7 @@ a.btn_style_link {
     white-space: nowrap;
     letter-spacing: 1px;
     line-height: normal;
+    display: none;
 }
 
 /* Specialized Border Configurations */
@@ -7249,11 +7250,10 @@ a.btn_style_link {
     background-color: var(--c-purple);
 }
 
-/* Typography */
 .corp-profile-data h4 {
-    color: var(--corp-dark);
-    font-size: 15px;
-    font-weight: 600;
+    color: #1d1c1c;
+    font-size: 20px;
+    font-weight: 900;
     margin: 0 0 4px 0;
 }
 
@@ -7262,6 +7262,7 @@ a.btn_style_link {
     font-size: 12px;
     margin: 0;
     line-height: 1.4;
+    display: none;
 }
 
 /* Interactions */
@@ -7560,9 +7561,11 @@ a.btn_style_link {
 }
 .corp-avatar img {
     width: 200px;
-    height: 250px;
+    height: 180px;
     object-fit: cover;
+    object-position: top;
 }
+
 .corp-role-tag {
     position: absolute;
     bottom: -8px;
