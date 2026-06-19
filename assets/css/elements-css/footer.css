@@ -1,10 +1,11 @@
 /*** ================== Main Footer =================== ***/
+
 .main_footer {
     position: relative;
     overflow: hidden;
     z-index: 99;
-    background: linear-gradient(to right, #dedede, #e4e4e4);
-    border-top: 2px dashed #ffffff;
+    background: linear-gradient(to right, #ffffff, #ffffff);
+    border-top: 2px dashed #f1f1f1;
     border-width: 3px;
 }
 
