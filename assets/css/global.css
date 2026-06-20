@@ -532,8 +532,8 @@ img {
 .handle-preloader .animation-preloader .spinner {
     border: 3px solid #ffffff;
     border-top-color: rgba(255, 255, 255, 0.5);
+    display: none;
 }
-
 /* AnimaciÃƒÂ³n del preloader */
 @keyframes spinner {
     from {

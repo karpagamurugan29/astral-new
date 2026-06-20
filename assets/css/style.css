@@ -1226,28 +1226,28 @@
 .about_left_image .tranding_icon {
     position: absolute;
     right: -10px;
-    top: 70px;
-    width: 107px;
-    height: 107px;
+    top: 0;
+    width: 70px;
+    height: 70px;
     font-size: 40px;
     text-align: center;
-    line-height: 107px;
     border-radius: 50%;
     color: #fff;
     background: linear-gradient(111deg, #F44336 19.42%, #E91E63 73.08%);
     box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.06);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
 .about_left_image .author_box {
     position: absolute;
     left: 0;
     text-align: center;
-    top: calc(50% - 108px);
-    padding: 30px 35px;
+    top: calc(25% - 108px);
+    padding: 20px 25px;
     border-radius: 10px;
     background: #D9FFE1;
 }
-
 .about_left_image .author_image {
     overflow: hidden;
     border-radius: 50%;
@@ -1299,9 +1299,10 @@
     margin-top: 20px;
 }
 
+
 .about_left_image .received_payment {
     position: absolute;
-    bottom: 20px;
+    bottom: -20%;
     right: -50px;
     display: flex;
     align-items: center;
@@ -7131,8 +7132,9 @@ a.btn_style_link {
     font-size: 15px;
     font-weight: 700;
     letter-spacing: 1px;
-    margin: 0 0 4px 0;
+    margin: 10px 0 4px 0;
     color: #5c0000;
+    line-height: normal;
 }
 
 .company-card-inner p {
@@ -7178,18 +7180,19 @@ a.btn_style_link {
 
 .corp-avatar-box {
     position: relative;
-    width: 160px;
-    height: 160px;
+    /* width: 160px; */
+    /* height: 160px; */
     flex-shrink: 0;
 }
-
 .corp-avatar-box img {
-    width: 100%;
-    height: 100%;
+    width: 200px;
+    height: 250px;
     border-radius: 14px;
     object-fit: cover;
     background: #f8fafc;
     border: 2px solid transparent;
+    object-position: top;
+    object-fit: cover;
 }
 
 .corp-dept-tag {
@@ -7406,7 +7409,7 @@ a.btn_style_link {
 }
 
 .corp-header {
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 .corp-badge {
@@ -7449,14 +7452,10 @@ a.btn_style_link {
     line-height: 1.6;
 }
 
-
-/* =========================================
-   3. MATRIX LAYOUT & CENTRAL HUB
-   ========================================= */
 .corp-matrix {
-    display: grid;
-    grid-template-columns: 1fr 300px 1fr;
-    gap: 40px;
+    display: flex;
+    /* grid-template-columns: 1fr auto 3fr; */
+    gap: 100px;
     align-items: center;
 }
 
@@ -7464,6 +7463,7 @@ a.btn_style_link {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    width: 50%;
 }
 
 /* The Beating Central Hub */
@@ -7560,12 +7560,11 @@ a.btn_style_link {
     flex-shrink: 0;
 }
 .corp-avatar img {
-    width: 200px;
-    height: 180px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
     object-position: top;
 }
-
 .corp-role-tag {
     position: absolute;
     bottom: -8px;
@@ -7607,17 +7606,18 @@ a.btn_style_link {
 
 .corp-info h4 {
     color: var(--corp-text-main);
-    font-size: 26px;
+    font-size: 20px;
     margin: 0 0 5px 0;
-    font-weight: 700;
+    font-weight: 900;
+    font-family: 'Font Awesome 6 Free';
+    letter-spacing: 1px;
 }
-
 .corp-info p {
-    color: var(--corp-text-muted);
+    color: #a3a3a3;
     font-size: 12px;
     margin: 0;
+    font-family: monospace;
 }
-
 /* The Diagonal Shine Element (Hidden until hover) */
 .corp-card-shine {
     position: absolute;
@@ -7762,4 +7762,10 @@ a.btn_style_link {
 
 .corp-info {
     width: 80%;
+}
+
+.management_board_card {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
 }
