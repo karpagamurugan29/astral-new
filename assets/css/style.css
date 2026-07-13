@@ -347,13 +347,13 @@
 
 .banner_style_three .banner_content h1 {
     color: #0D0D0D;
-    font-size: 52px;
+    font-size: 38px;
     font-style: normal;
     font-weight: 900;
     line-height: 50px;
     font-family: var(--primary-font);
     margin-bottom: 10px;
-    line-height: 76px;
+    line-height: 58px;
 }
 
 .banner_style_three .banner_content p {
@@ -1239,6 +1239,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .about_left_image .author_box {
     position: absolute;
     left: 0;
@@ -1248,6 +1249,7 @@
     border-radius: 10px;
     background: #D9FFE1;
 }
+
 .about_left_image .author_image {
     overflow: hidden;
     border-radius: 50%;
@@ -7184,6 +7186,7 @@ a.btn_style_link {
     /* height: 160px; */
     flex-shrink: 0;
 }
+
 .corp-avatar-box img {
     width: 200px;
     height: 250px;
@@ -7559,12 +7562,14 @@ a.btn_style_link {
     height: 174px; */
     flex-shrink: 0;
 }
+
 .corp-avatar img {
     width: 300px;
     height: 300px;
     object-fit: cover;
     object-position: top;
 }
+
 .corp-role-tag {
     position: absolute;
     bottom: -8px;
@@ -7612,12 +7617,16 @@ a.btn_style_link {
     font-family: 'Font Awesome 6 Free';
     letter-spacing: 1px;
 }
+
 .corp-info p {
     color: #a3a3a3;
     font-size: 12px;
     margin: 0;
     font-family: monospace;
+    margin-bottom: 5px;
+    letter-spacing: 0.5px;
 }
+
 /* The Diagonal Shine Element (Hidden until hover) */
 .corp-card-shine {
     position: absolute;
@@ -7768,4 +7777,8 @@ a.btn_style_link {
     display: flex;
     justify-content: center;
     margin-bottom: 2rem;
+}
+
+.confInfoP {
+    color: #c1cbec !important;
 }
