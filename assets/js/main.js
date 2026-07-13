@@ -36,10 +36,10 @@
 			requestAnimationFrame(update);
 		}
 
-		counter("count1", 50, 107, 5000);
+		counter("count1", 1950, 1992, 5000);
 		counter("count2", 9911, 10000, 5000);
-		counter("count3", 0, 21, 5000);
-		counter("count4", 10, 56, 5000);
+		counter("count3", 0, 35, 5000);
+		counter("count4", 0, 20, 5000);
 	});
 
 	//Search Popup
