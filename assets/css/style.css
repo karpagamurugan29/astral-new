@@ -1967,7 +1967,7 @@
 .process_block_one h4 {
     color: #0D0D0D;
     font-family: var(--primary-font);
-    font-size: 24px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: 30px;
@@ -1977,7 +1977,7 @@
 .process_block_one p {
     color: #6A6A6A;
     font-family: var(--secondary-font);
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 26px;
     margin-bottom: 10px;
@@ -3081,16 +3081,15 @@
 
 .service_style_one .nav-tabs {
     position: relative;
-    display: grid;
-    margin-bottom: 60px;
+    display: table;
+    margin-bottom: 0;
     align-items: center;
-    gap: 7px;
     border-bottom: 1px dashed #d7d7d7;
     width: 30%;
     padding: 1rem;
     border: 1px dashed #b7000061;
     border-radius: 10px;
-    /* background: linear-gradient(to right, #ffe1e1ba, #ffffff7a); */
+    background: linear-gradient(to right, #ffe1e1ba, #ffffff7a);
 }
 
 
@@ -4418,6 +4417,7 @@ h3.widget_title {
     font-weight: 400;
     line-height: 28px;
     margin-bottom: 20px;
+    text-align: justify;
 }
 
 .post_share_option {
@@ -7781,4 +7781,24 @@ a.btn_style_link {
 
 .confInfoP {
     color: #c1cbec !important;
+}
+
+.details_text_p {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    -webkit-text-fill-color: #0000;
+    background: linear-gradient(90deg, #4b3376, red);
+    background-clip: text;
+    color: #0000;
+}
+
+.serviceImg {
+    min-height: 400px;
+    max-height: 400px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+    border: 3px dashed #e4e4e4;
+    padding: 1rem;
 }

@@ -18,13 +18,13 @@
 }
 
 .footer_widget .footer_logo {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .footer_widget p {
     line-height: 26px;
     color: #444242db;
-    margin-bottom: 33px;
+    margin-bottom: 12px;
 }
 
 h4.footer_widget_title {
@@ -34,7 +34,7 @@ h4.footer_widget_title {
 }
 
 .footer_widget ul li a {
-    color:#444242db;
+    color: #444242db;
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
