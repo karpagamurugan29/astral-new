@@ -203,7 +203,6 @@
                         </div>
                     </div>
 
-
                 </div>
             </div>
         </div>
@@ -223,8 +222,78 @@
                             <!--Keep This Empty / Menu will come through Javascript-->
                         </nav>
                     </div>
-                    <div class="header_right_content">
-                        <button class="search-toggler d-none"><i class="icon-50"></i></button>
+                  <div class="header_right_content">
+                        <div class="link-btn">
+                            <a href="#" class="btn_style_one" data-bs-toggle="modal" data-bs-target="#partnerModal">
+                                <span>Speak To Partner</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade premium-modal" id="partnerModal" tabindex="-1" aria-hidden="true">
+
+                            <div class="modal-dialog modal-dialog-centered">
+
+                                <div class="modal-content">
+
+                                    <div class="modal-header border-0">
+
+                                        <div>
+                                            <span class="modal-badge">
+                                                <i class="fas fa-sparkles"></i>
+                                                Support
+                                            </span>
+
+                                            <h3 class="modal-title">
+                                                Speak To Partner
+                                            </h3>
+
+                                            <p class="modal-desc">
+                                                Let's discuss your requirements and find the best solution.
+                                            </p>
+                                        </div>
+
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+
+                                    </div>
+
+                                    <div class="modal-body">
+
+                                        <form>
+
+                                            <div class="input-group-premium">
+                                                <i class="fas fa-user"></i>
+                                                <input type="text" placeholder="Full Name">
+                                            </div>
+
+                                            <div class="input-group-premium">
+                                                <i class="fas fa-envelope"></i>
+                                                <input type="email" placeholder="Email Address">
+                                            </div>
+
+                                            <div class="input-group-premium">
+                                                <i class="fas fa-phone"></i>
+                                                <input type="tel" placeholder="Phone Number">
+                                            </div>
+
+                                            <div class="input-group-premium textarea-group">
+                                                <i class="fas fa-message"></i>
+                                                <textarea placeholder="Tell us about your project"></textarea>
+                                            </div>
+
+                                            <button class="premium-submit">
+                                                <span>Send Request</span>
+                                                <i class="fas fa-paper-plane"></i>
+                                            </button>
+
+                                        </form>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1026,7 +1095,7 @@
                     <span class="pulse-dot"></span>
                     OUR LEADERSHIP
                 </div>
-                <h2 class="corp-title">Experienced Professionals. Trusted Advisors</h2>
+                <h2 class="corp-title">Experienced Professionals. Trusted Advisors.</h2>
                 <p class="corp-subtitle">Experienced professionals delivering practical insights, independent advice,
                     and measurable business outcomes.</p>
             </div>
@@ -1068,21 +1137,6 @@
                     <!-- Card 2 -->
                     <div class="corp-card" data-aos="fade-right" data-aos-delay="100">
                         <div class="corp-card-shine"></div>
-                         <div class="corp-avatar">
-                            <img src="assets/images/team/muthu.jpeg" alt="Muthukumar">
-                            <div class="corp-role-tag">Systems Audit</div>
-                        </div>
-                        <div class="corp-info">
-                            <h4>M Muthukumar</h4>
-                            <p>Director</p>
-                            <p class="confInfoP">Specialises in ERP Reviews, Information Systems Audit, Technology Risk and Digital
-                                Transformation.</p>
-                        </div>                
-                    </div>
-
-                    <!-- Card 3 -->
-                    <div class="corp-card" data-aos="fade-right" data-aos-delay="100">
-                        <div class="corp-card-shine"></div>
                         <div class="corp-avatar">
                             <img src="assets/images/team/ramesh.png" alt="Ramesh">
                             <div class="corp-role-tag">Forensics</div>
@@ -1094,6 +1148,20 @@
                                 Investigation and Governance Reviews.</p>
                         </div>            
                     </div>
+
+                    <!-- Card 3 -->
+                      <div class="corp-card" data-aos="fade-left" data-aos-delay="100">
+                        <div class="corp-card-shine"></div>
+                        <div class="corp-avatar">
+                            <img src="assets/images/team/madhukar.png" alt="Madhukar">
+                            <div class="corp-role-tag">Direct Tax</div>
+                        </div>
+                        <div class="corp-info">
+                            <h4>Madhukar</h4>
+                            <p>Advisor – Tax & Regulatory Advisory</p>
+                            <p class="confInfoP">Specialises in Direct Tax, Corporate Tax Planning and Regulatory Advisory.</p>
+                        </div>
+                    </div>
                 </div>
 
 
@@ -1102,6 +1170,20 @@
                 <div class="corp-column col-right">
 
                     <!-- Card 4 -->
+                      <div class="corp-card" data-aos="fade-right" data-aos-delay="100">
+                        <div class="corp-card-shine"></div>
+                         <div class="corp-avatar">
+                            <img src="assets/images/team/muthu.jpeg" alt="Muthukumar">
+                            <div class="corp-role-tag">Systems Audit</div>
+                        </div>
+                        <div class="corp-info">
+                            <h4>M Muthukumar</h4>
+                            <p>Director</p>
+                            <p class="confInfoP">Specialises in ERP Reviews, Information Systems Audit, Technology Risk and Digital
+                                Transformation.</p>
+                        </div>                
+                    </div>
+                    <!-- Card 5 -->
                     <div class="corp-card" data-aos="fade-left" data-aos-delay="100">
                         <div class="corp-card-shine"></div>
                         <div class="corp-avatar">
@@ -1113,20 +1195,6 @@
                             <p>Principal Consultant</p>
                             <p class="confInfoP">Specialises in Risk-Based Internal Audit, Governance, Internal Controls and Process
                                 Reviews.</p>
-                        </div>
-                    </div>
-
-                    <!-- Card 5 -->
-                    <div class="corp-card" data-aos="fade-left" data-aos-delay="100">
-                        <div class="corp-card-shine"></div>
-                        <div class="corp-avatar">
-                            <img src="assets/images/team/madhukar.png" alt="Madhukar">
-                            <div class="corp-role-tag">Direct Tax</div>
-                        </div>
-                        <div class="corp-info">
-                            <h4>Madhukar</h4>
-                            <p>Advisor – Tax & Regulatory Advisory</p>
-                            <p class="confInfoP">Specialises in Direct Tax, Corporate Tax Planning and Regulatory Advisory.</p>
                         </div>
                     </div>
 
