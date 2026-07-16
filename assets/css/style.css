@@ -7568,6 +7568,7 @@ a.btn_style_link {
     height: 300px;
     object-fit: cover;
     object-position: top;
+    border-radius: 15px;
 }
 
 .corp-role-tag {
@@ -7587,24 +7588,6 @@ a.btn_style_link {
     letter-spacing: 1px;
     transition: all 0.4s ease;
     line-height: normal;
-}
-
-.corp-role-tag {
-    position: absolute;
-    bottom: -8px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: #1e293b;
-    color: var(--corp-accent-secondary);
-    font-size: 9px;
-    font-weight: 700;
-    padding: 3px 10px;
-    border-radius: 20px;
-    border: 1px solid #334155;
-    white-space: nowrap;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    transition: all 0.4s ease;
 }
 
 /* Text Content */
