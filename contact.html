@@ -432,7 +432,7 @@
                 </div>
                 <h2>Contact Information</h2>
             </div>
-            <form action="#" class="contact_form">
+            <form action="send-mail.php" method="POST" class="contact_form">
                 <div class="row">
                     <div class="col-xl-6 col-md-6 col-sm-12">
                         <div class="form-group">
@@ -441,17 +441,17 @@
                     </div>
                     <div class="col-xl-6 col-md-6 col-sm-12">
                         <div class="form-group">
-                            <input type="text" name="email" placeholder="Your email">
+                            <input type="email" name="email" placeholder="Your email">
                         </div>
                     </div>
                     <div class="col-xl-12 col-md-12 col-sm-12">
                         <div class="form-group">
-                            <textarea type="message" name="message" placeholder="Type message"></textarea>
+                            <textarea name="message" placeholder="Type message"></textarea>
                         </div>
                     </div>
                     <div class="col-xl-12 col-md-12 col-sm-12">
                         <div class="form-group centred">
-                            <button type="button" name="button" class="btn_style_one">Send Message</button>
+                            <button type="submit" name="button" class="btn_style_one">Send Message</button>
                         </div>
                     </div>
                 </div>
